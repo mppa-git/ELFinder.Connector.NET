@@ -123,7 +123,7 @@ namespace ELFinder.Connector.Drivers.FileSystem.Utils
 
             // Get encoder & crypto provider
             var encoder = Encoding.UTF8.GetEncoder();
-            var cryptoProvider = new MD5CryptoServiceProvider();
+            var cryptoProvider = new AlternativeMD5CryptoServiceProvider();
 
             // Normalize filename
             fileName += modified.ToFileTimeUtc();

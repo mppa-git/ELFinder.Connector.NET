@@ -65,6 +65,7 @@
     <Compile Include="Config\ELFinderRootVolumeConfigEntry.cs" />
     <Compile Include="Config\Interfaces\IELFinderConfig.cs" />
     <Compile Include="Config\Interfaces\IELFinderRootVolumeConfigEntry.cs" />
+    <Compile Include="Drivers\FileSystem\Utils\MD5Hash.cs" />
     <Compile Include="Streams\IFileStream.cs" />
     <Compile Include="Commands\Operations\Add\ConnectorUploadCommand.cs" />
     <Compile Include="Commands\Operations\Common\ConnectorCommand.cs" />
